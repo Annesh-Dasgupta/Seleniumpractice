@@ -1,0 +1,1 @@
+{"uuid":"56a8fc89-ca7f-4548-b49b-81101c945b01","name":"katalon","children":["3016ae2b-dd75-49e3-bc59-44e05f8f0bfc","6aff8ee3-16a2-4dc8-948e-344ddfb0ff6e"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1735535881283,"stop":1735535883879}],"afters":[],"start":1735535881272,"stop":1735535886943}

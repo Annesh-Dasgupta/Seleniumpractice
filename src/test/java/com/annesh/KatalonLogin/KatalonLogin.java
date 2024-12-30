@@ -28,6 +28,7 @@ public class KatalonLogin {
     public void mainpage(){
         driver.get("https://katalon-demo-cura.herokuapp.com/");
         Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/");
+        System.out.println("Current URL is : "+driver.getCurrentUrl());
 
     }
     @Test(priority = 2)
@@ -80,6 +81,7 @@ public class KatalonLogin {
         Thread.sleep(2000);
         WebElement date = driver.findElement(By.xpath("//td[text()='16']"));
         date.click();
+        Thread.sleep(2000);
 
     }
     @Test(priority = 8)

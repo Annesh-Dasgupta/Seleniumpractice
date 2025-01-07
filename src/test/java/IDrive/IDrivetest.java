@@ -13,7 +13,7 @@ public class IDrivetest {
     @BeforeTest
     public void setup(){
         driver = new EdgeDriver();
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
     }
     @Test(priority = 1)
     public void test_idriveurl() throws InterruptedException {
